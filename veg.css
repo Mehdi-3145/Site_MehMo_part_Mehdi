@@ -1,0 +1,209 @@
+/*Page*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: Monotype Corsiva, sans-serif, arial;
+    scroll-behavior: smooth;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}n 
+/*Titres*/
+h1,h2,h3,h4{
+    font-family: vivaldi;
+    font-size: 32px;
+}
+/*Menu*/
+nav{
+    background-color: #d7b624;
+    width: 1420px;
+    height: 55px;
+    margin-top: 0px;
+    z-index: 1000;
+    position: fixed;
+}
+.navg{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d7b624;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: 0px;
+}
+.navg p{
+    font-size: 27px;
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 12px;
+}
+.navg li{
+    float: right;
+    border: 1px solid #d7b624;
+    background-color: #d7b624;
+}
+.navg li a:link,
+.navg li a:visited{
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: background-color 0.9s, border 0.9s;
+}
+.navg li a:hover,
+.navg li a:active{
+    border: 1px solid #101010;
+    background-color: #ab911d;
+    color: #101010;
+}
+.tit{
+    float: left;
+}
+a {
+    margin-top: 10px;
+    display: block;
+    padding: 8px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #000000;
+}
+.logi{
+    float: left;
+    width: 60px;
+    margin: 0px;
+}
+
+/*Photo d'acceuil*/
+header{
+    background-image: url(img/original/magasin3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/*Présentation*/
+.pre{
+    margin-top: 550px;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    transition: border 0.8s, background-color 0.7s, opacity 0.7s;
+}
+.pre:hover{
+    border: 2px solid #d7b624;
+    background-color: #d7b624;
+    opacity: 0.9;
+}
+.ter{
+    width: 70%;
+    margin: auto;
+}
+
+/*Section 2*/
+.deux{
+    text-align: center;
+    display: inline-block;
+}
+.grauc{
+    width: 200px;
+}
+.images-gauche{
+    float: left;
+    color: #d7b624;
+    margin-left: -100px;
+    margin-top: -70px;
+}
+.centre{
+    background-attachment: fixed;
+    color: #d7b624;
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin: auto;
+}
+.gcd{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/original/bracelet.jpg);
+    padding: 142px;
+    min-width: 768px;
+    max-width: 1024px;
+}
+.gcd img{
+    opacity: 0.5;
+    transform: scale(0.75);
+    transition: transform 0.8s, opacity 1s;
+}
+.gcd img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.images-droite p{
+    float: right;
+    color: #d7b624;
+    margin-top: -410px;
+    margin-left: 1000px;
+}
+/*Footer*/
+.Foot{
+    background-color: #d7b624;
+    width: 1308px;
+    height: 250px;
+}
+.Foot div{
+    display: inline-block;
+    line-height: 145%;
+}
+.cno{
+    padding: 25px;
+}
+.por{
+    padding: 25px 0 0 25px;
+}
+.tel{
+    margin-bottom: 30px;
+}
+.BTN{
+    margin: -5px;
+    margin-left: 50px;
+    padding-left: 100px;
+    padding: 25px 0 0 0;
+}
+.FBI{
+    width: 260px;
+    height: 200px;
+    float: right;
+    margin-right: 125px;
+    margin-top: 15px;
+}
+.FBI h4{
+    font-size: 25px;
+    width: 75%;
+}
+.fby{
+    font-size: 25px;
+}
+.un{
+    color: #3b5958;
+}
+.deux{
+    color: #C70884;
+}
+.icon{
+    display: block;
+    font-size: 250%;
+}
+.FB,
+.insta{
+    width: 45px;
+}
+.FB:hover{
+    background-color: #3b5958;
+}
+.insta:hover{
+    background-color: #C70884;
+}
+.insta,
+.FB{
+    transition: color 0.5s;
+}
+
